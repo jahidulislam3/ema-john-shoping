@@ -1,0 +1,13 @@
+.ordercart{
+    position: sticky;
+    top: 0px;
+}
+.ordercart h2 {
+    padding-top: 30px;
+    text-align: center;
+}
+.order-details{
+    padding-left: 20px;
+    font-weight: 500;
+    padding-top: 4px;
+}
