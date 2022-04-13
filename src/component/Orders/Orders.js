@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useCart from '../../hooks/useCart';
 import useProduct from '../../hooks/useProduct';
 import { removeFromDb } from '../../utilities/fakedb';
@@ -8,6 +9,7 @@ import ReviewItem from '../ReviewItem/ReviewItem';
 const Orders = () => {
     const [products, setProducts] = useProduct();
     const [cart, setCart] = useCart(products);
+    const navigate = useNavigate();
 
     const removeItem = product => {
         console.log(product)

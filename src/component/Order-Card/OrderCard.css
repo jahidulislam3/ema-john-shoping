@@ -1,13 +1,25 @@
-.ordercart{
+.ordercart {
     position: sticky;
     top: 0px;
 }
+
 .ordercart h2 {
     padding-top: 30px;
     text-align: center;
 }
-.order-details{
+
+.order-details {
     padding-left: 20px;
     font-weight: 500;
     padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+.proceed {
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+
 }
